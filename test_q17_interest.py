@@ -1,6 +1,6 @@
-from q17_interest import interest
+from q1_temperature import celsius_to_fahrenheit
 
-def test_interest():
-    result = interest(1000, 10, 2)
-    expected = "Simple Interest: 200.0\nCompound Interest: 210.00000000000023"
+def test_temperature():
+    result = celsius_to_fahrenheit(0)
+    expected = "Celsius: 0\nFahrenheit: 32.0"
     assert result == expected
