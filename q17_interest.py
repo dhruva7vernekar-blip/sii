@@ -1,7 +1,6 @@
-def interest(p, r, t):
-    si = (p * r * t) / 100
-    ci = p * ((1 + r / 100) ** t) - p
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) + 32
     return (
-        f"Simple Interest: {si}\n"
-        f"Compound Interest: {ci}"
+        f"Celsius: {celsius}\n"
+        f"Fahrenheit: {fahrenheit}"
     )
